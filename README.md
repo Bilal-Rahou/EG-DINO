@@ -1,22 +1,11 @@
-<div align="center">
-
 # EG-DINO: Edge-Guided Foundation Models for Continual Segmentation
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eg-dino/semantic-segmentation-on-crack500)](https://paperswithcode.com/sota)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pytorch.org/)
-
-> **Official PyTorch implementation for our CVPR paper on Edge-Guided Continual Learning for Segmentation.**
-
-</div>
 
 EG-DINO introduces a structural prior using deep learned boundaries (HED) to bridge the stability-plasticity gap in Continual Learning (CL) for dense prediction tasks. By dynamically gating features between a frozen and fine-tuned DINOv2 backbone, our method mitigates catastrophic forgetting while maximizing target domain transfer.
 
 ## 🏗️ Architecture
 
 ![EG-DINO Architecture Diagram](figures/architecture.png)
-*Figure 1: The EG-DINO pipeline. The unfrozen backbone (green) adapts to new domains while the frozen backbone (blue) retains source knowledge. These streams are regulated by a compact gating module (small circle) guided by HED boundary priors, directly feeding into the parallel edge pyramid decoder stages (orange).*
+*Figure 1: The EG-DINO pipeline. The unfrozen backbone (green) adapts to new domains while the frozen backbone (blue) act as an anchor for stability. The edge priors are incorporated into the decoder using a gating module.
 
 ---
 
