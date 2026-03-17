@@ -9,7 +9,7 @@ Figure 1: The EG-DINO pipeline. The unfrozen backbone (green) adapts to new doma
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 Clone the repository and install the dependencies:
@@ -37,7 +37,7 @@ dataset_crack500/
 
 ---
 
-## 💻 Usage
+## Usage
 
 Our scripts utilize command-line arguments for seamless adaptation to different datasets and image resolutions.
 
@@ -68,7 +68,7 @@ python test.py \
 
 ---
 
-## 📊 Main Results
+## Main Results
 
 ### Ablation Study on Architecture Design
 Evaluation of Continual Learning Protocol (Dataset Crack500 (C) &rarr; Dataset Deepcrack (D)). All results are reported using the F1 Score (%).
@@ -85,7 +85,7 @@ Evaluation of Continual Learning Protocol (Dataset Crack500 (C) &rarr; Dataset D
 
 ---
 
-## 🔗 Citation
+## Citation
 
 If you find this code or our conceptual pipeline useful in your research, please consider citing:
 
