@@ -1,0 +1,36 @@
+# ==========================================
+# Python / Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+.env
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# PyTorch / Model Weights
+# ==========================================
+*.pth
+*.pt
+*.ckpt
+weights/*
+
+# ==========================================
+# Datasets / Generated Output
+# ==========================================
+dataset_crack500/
+dataset_deepcrack/
+data/
+# Ignore any dynamically generated edge folders
+*edges_*/
