@@ -5,7 +5,7 @@ EG-DINO introduces a structural prior using deep learned boundaries (HED) to bri
 ## 🏗️ Architecture
 
 ![EG-DINO Architecture Diagram](figures/architecture.png)
-*Figure 1: The EG-DINO pipeline. The unfrozen backbone (green) adapts to new domains while the frozen backbone (blue) act as an anchor for stability. The edge priors are incorporated into the decoder using a gating module.
+Figure 1: The EG-DINO pipeline. The unfrozen backbone (green) adapts to new domains while the frozen backbone (blue) act as an anchor for stability. The edge priors are incorporated into the decoder using a gating module.
 
 ---
 
