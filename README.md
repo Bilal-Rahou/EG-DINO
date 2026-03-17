@@ -71,7 +71,7 @@ python test.py \
 ## 📊 Main Results
 
 ### Ablation Study on Architecture Design
-Evaluation of Continual Learning Protocol (Dataset C &rarr; Dataset D). All results are reported using the F1 Score (%).
+Evaluation of Continual Learning Protocol (Dataset Crack500 (C) &rarr; Dataset Deepcrack (D)). All results are reported using the F1 Score (%).
 
 | Method | Oracle Source (C) | Zero-Shot (C &rarr; D) | Transfer (C &rarr; D) | Forgetting Check (D &rarr; C) |
 | :--- | :---: | :---: | :---: | :---: |
