@@ -1,4 +1,4 @@
-# EG-DINO: Edge-Guided Foundation Models for Continual Segmentation
+# EG-DINO: Guiding Foundation Models with Structural Priors for Domain-Incremental Crack Segmentation
 
 EG-DINO introduces a structural prior using deep learned boundaries (HED) to bridge the stability-plasticity gap in Continual Learning (CL) for dense prediction tasks. By dynamically gating features between a frozen and fine-tuned DINOv2 backbone, our method mitigates catastrophic forgetting while maximizing target domain transfer.
 
@@ -91,9 +91,9 @@ If you find this code or our conceptual pipeline useful in your research, please
 
 ```bibtex
 @inproceedings{eg_dino_cvpr202X,
-  title={YOUR PAPER TITLE HERE},
-  author={YOUR NAME HERE},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={202X}
+  title={EG-DINO: Guiding Foundation Models with Structural Priors for Domain-Incremental Crack Segmentation},
+  author={Anonymous},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year={2026}
 }
 ```
