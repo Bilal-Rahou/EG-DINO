@@ -14,7 +14,7 @@ EG-DINO introduces a structural prior using deep learned boundaries (HED) to bri
 ### 1. Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone [https://github.com/Bilal-Rahou/EG-DINO.git](https://github.com/Bilal-Rahou/EG-DINO.git)
+git clone https://github.com/Bilal-Rahou/EG-DINO.git
 cd EG-DINO
 pip install -r requirements.txt
 ```
